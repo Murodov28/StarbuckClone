@@ -8,11 +8,11 @@ import { Basket } from "./Pages/Basket";
 import { ListProvider } from "./context/ListContext";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "StarbuckClone/",
     element: <Home />,
   },
   {
-    path: "/basket",
+    path: "StarbuckClone/Basket",
     element: <Basket />,
   },
 ]);
