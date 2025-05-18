@@ -5,7 +5,7 @@ export const InformationList = () => {
     <div className="relative px-20 py-10 flex gap-32 w-fit bg-banner-list rounded-3xl [@media(max-width:1400px)]:gap-20 [@media(max-width:1400px)]:px-14 [@media(max-width:1400px)]:py-5 [@media(max-width:850px)]:flex-col [@media(max-width:850px)]:px-10 [@media(max-width:960px)]:gap-10">
       <img
         className="absolute -top-24 -left-24 [@media(max-width:960px)]:hidden"
-        src="/public/Group 25.png"
+        src="../../../assets/img/10 1.png"
         alt=""
       />
       <InformationCard

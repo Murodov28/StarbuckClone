@@ -21,7 +21,7 @@ export const HeaderBanner3D = () => {
     <>
       <model-viewer
         ref={viewerRef}
-        src="/public/uploads_files_5723915_STARBUCKS_COFFEE.glb"
+        src="/uploads_files_5723915_STARBUCKS_COFFEE.glb"
         style={{
           width:
             window.innerWidth <= 700
