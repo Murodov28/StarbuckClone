@@ -6,7 +6,7 @@ export const EventsList = ({ cards }) => {
       {cards?.map((card, index) => (
         <EventsCard
           key={index}
-          img={card.img}
+          img={import.meta.env.BASE_URL + card.img}
           title={card.title}
           width={card.width}
         />

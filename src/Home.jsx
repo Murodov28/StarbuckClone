@@ -35,7 +35,7 @@ export const Home = function () {
             title={"We Make"}
             title2={" delicious"}
             isVideo={true}
-            img={"/public/Group 97.png"}
+            img={`${import.meta.env.BASE_URL}Group 97.png`}
             isReverse={false}
           />
           <NewProducts Products={Products} setProducts={setProducts} />
@@ -44,7 +44,7 @@ export const Home = function () {
             title={"Our "}
             title2={" Contacts"}
             isVideo={false}
-            img="/public/Group 53.png"
+            img={`${import.meta.env.BASE_URL}Group 53.png`}
             isReverse={true}
           />
         </div>

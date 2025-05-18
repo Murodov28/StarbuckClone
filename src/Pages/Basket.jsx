@@ -35,7 +35,7 @@ export const Basket = () => {
         <div className="flex flex-col gap-2 items-center w-full">
           <img
             className="w-40 h-50 [@media(max-width:680px)]:w-24 [@media(max-width:680px)]:h-28"
-            src="/public/basket.png"
+            src={`${import.meta.env.BASE_URL}basket.png`}
             alt=""
           />
           <h3 className="text-white text-3xl font-medium [@media(max-width:1400px)]:text-2xl [@media(max-width:680px)]:text-[1.5rem]">

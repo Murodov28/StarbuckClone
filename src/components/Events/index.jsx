@@ -12,10 +12,10 @@ export const Events = () => {
   useEffect(() => {
     const getArrayE1 = async () => {
       const response1 = await fetch(
-        "/src/components/Events/ArrrayE/ARRAYE1.json"
+        `${import.meta.env.BASE_URL}ArrrayE/ARRAYE1.json`
       );
       const response2 = await fetch(
-        "/src/components/Events/ArrrayE/ARRAYE2.json"
+        `${import.meta.env.BASE_URL}ArrrayE/ARRAYE2.json`
       );
       const data1 = await response1.json();
       const data2 = await response2.json();

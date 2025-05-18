@@ -41,7 +41,7 @@ export const List = ({ Products, isBasketCard }) => {
               minusCount={() => minusCount(product.id)}
               onClick={() => onClick(product.id)}
               id={product.id}
-              img={product.img}
+              img={import.meta.env.BASE_URL + product.img}
               h4={product.title}
               p={product.description}
               b={product.price}
