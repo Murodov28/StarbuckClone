@@ -30,11 +30,11 @@ export const Navbar = () => {
         <div className=" [@media(max-width:680px)]:hidden">
           <ul className="flex gap-20 [@media(max-width:850px)]:gap-10">
             <li className="text-[1.2rem] text-[#D9D9D9]">
-              <Link to="/">Home</Link>
+              <Link to="StarbuckClone/">Home</Link>
             </li>
             <li className="text-[1.2rem] text-[#D9D9D9]">Select</li>
             <li className="text-[1.2rem] text-[#D9D9D9]">
-              <Link to="/Basket">Basket</Link>
+              <Link to="StarbuckClone/Basket">Basket</Link>
             </li>
           </ul>
         </div>
@@ -42,11 +42,11 @@ export const Navbar = () => {
       <div id="mobile-menu" className={isOpen ? "block" : "hidden"}>
         <ul className=" h-screen [@media(max-width:450px)]:w-2/3 w-1/2 flex flex-col items-center bg-gradient-to-b from-green-800 to-green-700 gap-10 absolute top-0 left-0 p-10 z-50">
           <li className="text-[1.2rem] text-[#D9D9D9]">
-            <Link to="/">Home</Link>
+            <Link to="StarbuckClone/">Home</Link>
           </li>
           <li className="text-[1.2rem] text-[#D9D9D9]">Select</li>
           <li className="text-[1.2rem] text-[#D9D9D9]">
-            <Link to="/Basket">Basket</Link>
+            <Link to="StarbuckClone/Basket">Basket</Link>
           </li>
         </ul>
       </div>
