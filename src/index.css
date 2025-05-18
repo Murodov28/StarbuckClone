@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.text-h1 {
+  background: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.burger {
+  background: linear-gradient(263.46deg, #237249 3.14%, #35c66b 87.2%);
+}
+.bg-banner-list-card {
+  background: linear-gradient(267.2deg, #237249 3.05%, #35c66b 75.72%);
+}
+.bg-banner-list-card-red {
+  background: linear-gradient(267.2deg, #8b0000 3.05%, #c94d37 75.72%);
+}
+.button {
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+}
+.loading {
+  background: linear-gradient(265.23deg, #237249 6.79%, #35c66b 97.2%);
+  animation-name: loading-in;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  border-radius: 60px;
+}
+
+.border-liner {
+  border: 1.35px solid;
+  border-image-source: linear-gradient(
+    132.9deg,
+    #dadada 9.82%,
+    rgba(218, 218, 218, 0.07) 49.06%,
+    #dadada 103.78%
+  );
+  border-image-slice: 1;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+.two-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* максимум 2 строки */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4; /* межстрочное расстояние */
+  height: calc(1.4em * 2); /* ровно 2 строки */
+  word-break: break-word;
+}
+
+.border-liner:hover {
+  box-shadow: 0 12px 25px rgba(46, 204, 113, 0.3);
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  border: 1.35px solid;
+  border-image-source: linear-gradient(
+    132.9deg,
+    #35c66b 9.82%,
+    rgba(218, 218, 218, 0.07) 49.06%,
+    #35c66b 103.78%
+  );
+  border-image-slice: 1;
+}
+.bg-img-banner {
+  background-image: url("/public/Group\ 112.png");
+}
+.image-position {
+  /* box-shadow: 0px 40px 4px rgba(0, 0, 0, 0.25); */
+  position: absolute;
+  z-index: 1000;
+  top: -40px;
+  width: 280px;
+  height: 240px;
+  object-fit: cover;
+  transform: scale(1);
+}
+@media (max-width: 900px) {
+  .image-position {
+    transform: scale(0.8);
+  }
+}
+.bg-banner-list {
+  background: linear-gradient(
+    264.52deg,
+    #ffffff 4.95%,
+    #e5e5e5 64.19%,
+    #fbfbfb 88.37%
+  );
+}
+@keyframes loading-in {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+    animation-delay: 0.25s;
+  }
+  50% {
+    width: 50%;
+    animation-delay: 0.25s;
+  }
+  75% {
+    width: 75%;
+    animation-delay: 0.25s;
+  }
+  100% {
+    width: 100%;
+    animation-delay: 0.25s;
+  }
+}
