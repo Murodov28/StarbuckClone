@@ -34,7 +34,7 @@ export const Navbar = () => {
             </li>
             <li className="text-[1.2rem] text-[#D9D9D9]">Select</li>
             <li className="text-[1.2rem] text-[#D9D9D9]">
-              <Link to="StarbuckClone/Basket">Basket</Link>
+              <Link to="/Basket">Basket</Link>
             </li>
           </ul>
         </div>
@@ -46,7 +46,7 @@ export const Navbar = () => {
           </li>
           <li className="text-[1.2rem] text-[#D9D9D9]">Select</li>
           <li className="text-[1.2rem] text-[#D9D9D9]">
-            <Link to="StarbuckClone/Basket">Basket</Link>
+            <Link to="/Basket">Basket</Link>
           </li>
         </ul>
       </div>

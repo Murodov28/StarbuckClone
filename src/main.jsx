@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "StarbuckClone/Basket",
+    path: "/Basket",
     element: <Basket />,
   },
 ]);
